@@ -1,0 +1,13 @@
+.top-bar-text-left {
+    // font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.0092px;
+    line-height: 24px;
+  
+    color: #D9D9E3;
+
+    @media (min-width:0px) and (max-width:640px) {
+        font-size: 10.0092px;
+    }
+}

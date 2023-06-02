@@ -1,0 +1,39 @@
+.text-area {
+    height: 434px;
+    font-family: 'Monaco';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.0107px;
+    color: #FFFFFF;
+
+    &-twitter {
+        color: #0DC43F;
+    }
+
+    @media (min-width:0px) and (max-width:640px) {
+        height: 234px;
+        font-size: 13.0107px;
+    }
+}
+
+.text-area-login{
+    height: 234px;
+    @media (min-width:0px) and (max-width:640px) {
+        height: 134px;
+        margin: 50px 0;
+    }
+}
+
+.download{
+    font-family: 'Consolas';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+
+@media (min-width:0px) and (max-width:640px) {
+    font-size: 20px;
+}
+}
